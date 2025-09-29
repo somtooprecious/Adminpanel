@@ -1,0 +1,73 @@
+ .mainchart{
+    background-color: rgb(226, 224, 224);
+    height: 630px;
+    width: 100%;
+}
+
+.picture{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+.Chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 600;
+    font-size: 1.9rem;
+    position: relative;
+    left: 130px;
+}
+
+.searchbox input{
+    width: 150px;
+    height: 28px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0 45px;
+    font-size: 0.9rem;
+    background-color: whitesmoke;
+    position: relative;
+    left: 350px;
+    top: 30px;
+}
+
+.searchicon{
+    position: relative;
+    left: 120px;
+    top: 34px;
+    font-size: 1.3rem;
+}
+
+.noyifyicon{
+    position: relative;
+    left: 250px;
+    top: 35px;
+    font-size: 1.5rem;
+}
+
+.texts{
+    position: relative;
+    left: 160px;
+    top: 17px;
+    line-height: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texts h3{
+    font-size: 0.94rem;
+}
+
+.texts p{
+    font-size: 0.9rem;
+} 
